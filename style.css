@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .text-block {
     background-color: blue;
+    display: block;
+    width: 155px;
+    height: 20px;
+    overflow: hidden;
+    }
+.text-block:hover {
+    background-color: red;
+}    
 }
